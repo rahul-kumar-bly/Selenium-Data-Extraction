@@ -5,7 +5,7 @@ from selenium.webdriver import chrome
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from time import sleep
+from pathlib import Path
 import pandas
 from tqdm import tqdm
 
